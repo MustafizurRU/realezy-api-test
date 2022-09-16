@@ -1,0 +1,40 @@
+{
+  "posts": [
+    { "id": 1, "title": "json-server", "author": "Mustafizur" },
+    { "id": 2, "title": "json-server2", "author": "Saju" }
+  ],
+  "comments": [
+    { "id": 1, "body": "Excellent courese", "postId": 1 }
+  ],
+  "profile": { "name": "Mustafizur" },
+  "address": {
+    "primary": [
+      {
+        "city": "Chuadanga",
+        "State": "Khulna",
+        "Country": "Bangladesh",
+        "PostalCode": 7220
+      },
+      {
+        "city": "Rajshahi",
+        "State": "Rajshahi",
+        "Country": "Bangladesh",
+        "PostalCode": 6205
+      }
+    ],
+    "secondary": [
+      {
+        "city": "Dhaka",
+        "State": "Dhaka",
+        "Country": "Bangladesh",
+        "PostalCode": 1206
+      },
+      {
+        "city": "Kochukhet",
+        "State": "Dhaka",
+        "Country": "Bangladesh",
+        "PostalCode": 1207
+      }
+    ]
+  }
+}
